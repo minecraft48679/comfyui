@@ -77,8 +77,8 @@ function provisioning_start() {
         "${WORKSPACE}/ComfyUI/models/vae" \
         "${VAE_MODELS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/ComfyUI/models/esrgan" \
-        "${ESRGAN_MODELS[@]}"
+        "${WORKSPACE}/ComfyUI/models/upscale_models" \
+        "${UPSCALE_MODELS[@]}"
     provisioning_get_models \
         "${WORKSPACE}/ComfyUI/models/clip" \
         "${TEXT_ENCODERS[@]}"
