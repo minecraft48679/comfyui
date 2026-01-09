@@ -31,7 +31,7 @@ UNET_MODELS=(
 
 )
 TEXT_ENCODERS=(
-    "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it.safetensors"
+    "https://huggingface.co/GitMylo/LTX-2-comfy_gemma_fp8_e4m3fn/resolve/main/gemma_3_12B_it_fp8_e4m3fn.safetensors"
 )
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
